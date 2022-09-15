@@ -30,6 +30,7 @@ body {
       rgba(255, 255, 255, 0.05) 99.85%);
   backdrop-filter: blur(5px);
   margin-bottom: 30px;
+  padding: 5px;
 }
 
 #display {
@@ -42,6 +43,7 @@ body {
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
+  padding: 5px;
 }
 
 #countdown {
@@ -156,10 +158,6 @@ button {
 .card {
   width: 100%;
   height: 100%;
-  padding: 50px;
-  /* display: flex; */
-  /* justify-content: space-between;
-  align-items: center; */
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
