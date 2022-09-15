@@ -18,9 +18,31 @@
         <h3>Questions and Answers Part</h3>
     </header>
     <main>
-        <div class="qs-section">
-            <p># What is the difference between local storage and session storage?</p>
-            <p></p>
+        <div>
+            <p class="q-section"># What is the difference between local storage and session storage?</p>
+            <p class="a-section">The difference between sessionStorage and localStorage is that localStorage data does
+                not expire, whereas
+                sessionStorage data is cleared when the page session ends. <br>A unique page session gets created once a
+                document is loaded in a browser tab. Page sessions are valid for only one tab at a time. Pages are only
+                saved for the amount of time that the tab or the browser is open; they do not persist after the page
+                reloads and restores. A new session is created each time a tab or window is opened; this is different
+                from session cookies. Each tab/window that is opened with the same URL creates its own
+                sessionStorage.When you duplicate a tab, the sessionStorage from the original tab is copied to the
+                duplicated tab. Closing a window/tab ends the session and clears sessionStorage objects.</p>
+            <p class="q-section"># What is the difference between global scope and block scope?</p>
+            <p class="a-section">Function Scope: When a variable is declared inside a function, it is only accessible
+                within that function and cannot be used outside that function. Block Scope: A variable when declared
+                inside the if or switch conditions or inside for or while loops, are accessible within that particular
+                condition or loop. </p>
+            <p class="q-section"># How the JavaScript event loop works?</p>
+            <p class="a-section">The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue.
+                If the Call Stack
+                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
+                which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+            <p class="q-section"># How many types of undefined can we get?</p>
+            <p class="a-section">A variable that has not been assigned a value is of type undefined. A method or
+                statement also returns undefined if the variable that is being evaluated does not have an assigned
+                value. A function returns undefined if a value was not returned.</p>
         </div>
     </main>
 </body>

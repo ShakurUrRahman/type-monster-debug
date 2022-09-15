@@ -15,7 +15,12 @@ body {
     font-size: 25px;
 }
 
-.qs-section {
+.q-section {
     margin-top: 25px;
     color: #9DFFAD
+}
+
+.a-section {
+    margin: 25px;
+
 }
